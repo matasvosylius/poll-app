@@ -1,0 +1,14 @@
+3rd iteration:
+
+    ✔ Sharable polls @1h30m @started(20-05-12 17:15) @done(20-05-12 21:25) @lasted(4h10m12s)
+        ✔ Pop the window with link after creating poll @frondend @done(20-05-12 21:25)
+        ✔ Generate unique link @done(20-05-12 19:51)
+
+    ✔ Private polls @1h30m @started(20-05-12 21:26) @done(20-05-12 22:33) @lasted(1h7m15s)
+        ✔ Implement option in poll creation section @started(20-05-12 21:27) @done(20-05-12 22:10) @lasted(43m4s)
+        ✔ Implement filter in backend server to check if poll can be shown publicly @done(20-05-12 22:33)
+
+    ☐ Voting methods @3h
+        ✔ Implement option in poll creation section @started(20-05-12 22:35) @done(20-05-12 22:48) @lasted(13m3s)
+        ☐ Change vote submition logic (create that with submit button)
+        ☐ Update logic in backend when you have chosen multiple selection vote method
