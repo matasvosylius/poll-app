@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const optionSchema = new mongoose.Schema({
+    // TODO multiple choice
+    // option: [{
+    //     type: String
+    // }],
     option: String,
     votes: {
         type: Number,
@@ -20,7 +24,9 @@ const pollSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     },
-    expireDate: {type: Date, default: undefined}
+    expireDate: { type: Date, default: undefined },
+    privatePoll: { type: Boolean, default: undefined },
+    multipleChoice: { type: Boolean, default: undefined },
 });
 
 module.exports = mongoose.model('Poll', pollSchema);

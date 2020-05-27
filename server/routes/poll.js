@@ -10,6 +10,8 @@ router
 
 router.get('/user', auth, handle.userPolls);
 
+router.get('/history', auth, handle.userHistory);
+
 router
 .route('/:id')
 .get(auth, handle.getPoll)
